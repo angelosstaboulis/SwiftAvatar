@@ -1,0 +1,6 @@
+framework module Pods_SwiftAvatar_SwiftAvatarUITests {
+  umbrella header "Pods-SwiftAvatar-SwiftAvatarUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

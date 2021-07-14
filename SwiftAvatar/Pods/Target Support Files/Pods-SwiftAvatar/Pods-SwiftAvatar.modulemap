@@ -1,0 +1,6 @@
+framework module Pods_SwiftAvatar {
+  umbrella header "Pods-SwiftAvatar-umbrella.h"
+
+  export *
+  module * { export * }
+}

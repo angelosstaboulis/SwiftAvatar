@@ -1,0 +1,963 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08680619F0EABBBC61F29740D6637194 /* Toucan-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FD979B44A9113175E803961138C1A95 /* Toucan-dummy.m */; };
+		13EFD050393464B86C7BFD2E94BE1EB4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		1AEFFFAC0BEAF89281DF82919469352E /* Toucan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87613DEAD64823E0D119DEE55BD9B6AA /* Toucan.swift */; };
+		2663E9BAE2A7E282D85C8AAFA52B2950 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		3F8F9A4B3A24B33EAB5D3162D3D16F8C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		49B1C71C67310A04850F49EB49331947 /* Toucan-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ECF9F58FF2F1F715CF4DDCE2C15ED101 /* Toucan-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4FAC99493CB4FE679AA5CDA36F269EB3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		672930BD7D22F943EDAD0780C9EFB08C /* Pods-SwiftAvatarTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EE2EBB3CF4CEBFC0CB1E865E00B61ECF /* Pods-SwiftAvatarTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81040857A4A049182EF6ABC54F50A91F /* Pods-SwiftAvatar-SwiftAvatarUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 37F110D69208D5E542FB091384B86CE9 /* Pods-SwiftAvatar-SwiftAvatarUITests-dummy.m */; };
+		8A152A1CECDDC2E30C1690B7F697F354 /* Pods-SwiftAvatarTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B755633EAA86CEDF8BA75F72FEF773B4 /* Pods-SwiftAvatarTests-dummy.m */; };
+		9745DE8DEFCB21E968BC773F9D07594F /* Pods-SwiftAvatar-SwiftAvatarUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E97B8B9B8FED391A818087D075DDC177 /* Pods-SwiftAvatar-SwiftAvatarUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD678F13631F750208912B1849D0AABB /* Pods-SwiftAvatar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D39C18B72F9605980E516BB447A41712 /* Pods-SwiftAvatar-dummy.m */; };
+		F22DB5CF4D36E764898CB102EBE815CC /* Pods-SwiftAvatar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A3A35B72127A8EADD3DB373F525441BE /* Pods-SwiftAvatar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7CC03834D2D82294E244342E1BEDF153 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2203B25F7B9F4355577CA83C6C8D9546;
+			remoteInfo = Toucan;
+		};
+		A256AC81A39F5DA4E88B983E3504E7E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1102F0DC11E0A0ABCA486CFFA0415C2;
+			remoteInfo = "Pods-SwiftAvatar";
+		};
+		ABF408810DB5B4826083299ED401C2BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2203B25F7B9F4355577CA83C6C8D9546;
+			remoteInfo = Toucan;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04A9C433BCF9ACF2EB8166F8E750735D /* Toucan-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Toucan-prefix.pch"; sourceTree = "<group>"; };
+		0FD979B44A9113175E803961138C1A95 /* Toucan-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Toucan-dummy.m"; sourceTree = "<group>"; };
+		11E0322D7D11E622AABC80398A135654 /* Toucan.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Toucan.modulemap; sourceTree = "<group>"; };
+		1A3C7A1AB53F4C40DF250F55D3A6EC81 /* Pods-SwiftAvatarTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftAvatarTests-Info.plist"; sourceTree = "<group>"; };
+		1AB5E04EB868E1B2A4E1FE0C1416C179 /* Pods-SwiftAvatar-SwiftAvatarUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftAvatar-SwiftAvatarUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1FEAB732374296549DC5DF13760EF9AB /* Pods-SwiftAvatarTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftAvatarTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		26CD2C656C52FC5B38AD03EE6394B1F3 /* Pods-SwiftAvatarTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftAvatarTests.modulemap"; sourceTree = "<group>"; };
+		289983092D54CA94F2AA54CA7F257158 /* Pods-SwiftAvatar-SwiftAvatarUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftAvatar-SwiftAvatarUITests.release.xcconfig"; sourceTree = "<group>"; };
+		293FEA96B0612104E0B29525C3350732 /* Pods-SwiftAvatarTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftAvatarTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		2D77474BC352660531B1ADCB561D5F90 /* Pods-SwiftAvatar-SwiftAvatarUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftAvatar-SwiftAvatarUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		37F110D69208D5E542FB091384B86CE9 /* Pods-SwiftAvatar-SwiftAvatarUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftAvatar-SwiftAvatarUITests-dummy.m"; sourceTree = "<group>"; };
+		453A76B43132280339F426A88D135798 /* Pods_SwiftAvatarTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftAvatarTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ABDBFD356B09518E0AC7D7AA37C8510 /* Pods-SwiftAvatar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftAvatar.release.xcconfig"; sourceTree = "<group>"; };
+		5677296766C220CECA390F150D3F907B /* Pods-SwiftAvatar-SwiftAvatarUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftAvatar-SwiftAvatarUITests-frameworks.sh"; sourceTree = "<group>"; };
+		5CD2650C096CA6D6843FADBD5C960A9C /* Pods_SwiftAvatar_SwiftAvatarUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftAvatar_SwiftAvatarUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		799E76F750B66EA2FFBC71FBEB729C91 /* Pods-SwiftAvatar-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftAvatar-acknowledgements.plist"; sourceTree = "<group>"; };
+		87613DEAD64823E0D119DEE55BD9B6AA /* Toucan.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Toucan.swift; path = Source/Toucan.swift; sourceTree = "<group>"; };
+		888B15FF241BF86BB08A73E7E2FD8477 /* Pods-SwiftAvatar-SwiftAvatarUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftAvatar-SwiftAvatarUITests-Info.plist"; sourceTree = "<group>"; };
+		8B245D80B9EACCD84BA8474101E07B75 /* Pods-SwiftAvatarTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftAvatarTests.debug.xcconfig"; sourceTree = "<group>"; };
+		93A45EEF8BEAB3DDEF6FE2AF580BD76B /* Pods-SwiftAvatar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftAvatar.debug.xcconfig"; sourceTree = "<group>"; };
+		984EED31374C2D92D26679220212F823 /* Pods-SwiftAvatar-SwiftAvatarUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftAvatar-SwiftAvatarUITests.modulemap"; sourceTree = "<group>"; };
+		98B8A8587D758373CE3FC13736F8ACA2 /* Pods-SwiftAvatar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftAvatar.modulemap"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E2E0DE9EC8083B24D0DCA115203365B /* Pods-SwiftAvatar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftAvatar-Info.plist"; sourceTree = "<group>"; };
+		A3A35B72127A8EADD3DB373F525441BE /* Pods-SwiftAvatar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftAvatar-umbrella.h"; sourceTree = "<group>"; };
+		B755633EAA86CEDF8BA75F72FEF773B4 /* Pods-SwiftAvatarTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftAvatarTests-dummy.m"; sourceTree = "<group>"; };
+		C328B619469E7137C777CBCB47A5516D /* Pods_SwiftAvatar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftAvatar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C524232D031F59C5466938357DC1A05E /* Pods-SwiftAvatarTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftAvatarTests.release.xcconfig"; sourceTree = "<group>"; };
+		CAE1088FDCB01F6E6A1668AF7D157795 /* Pods-SwiftAvatar-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftAvatar-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CFC0BD07E79262FE3F78319F29AF6FF7 /* Toucan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Toucan.release.xcconfig; sourceTree = "<group>"; };
+		D39C18B72F9605980E516BB447A41712 /* Pods-SwiftAvatar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftAvatar-dummy.m"; sourceTree = "<group>"; };
+		D5124AA1F0F55AEFEF08CC12597C8C89 /* Toucan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Toucan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E97B8B9B8FED391A818087D075DDC177 /* Pods-SwiftAvatar-SwiftAvatarUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftAvatar-SwiftAvatarUITests-umbrella.h"; sourceTree = "<group>"; };
+		ECF9F58FF2F1F715CF4DDCE2C15ED101 /* Toucan-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Toucan-umbrella.h"; sourceTree = "<group>"; };
+		EE2EBB3CF4CEBFC0CB1E865E00B61ECF /* Pods-SwiftAvatarTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftAvatarTests-umbrella.h"; sourceTree = "<group>"; };
+		F88DBCF5E603E72395291670B4B4C15B /* Pods-SwiftAvatar-SwiftAvatarUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftAvatar-SwiftAvatarUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F945787044ED6B318292BD3B87D0B140 /* Toucan-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Toucan-Info.plist"; sourceTree = "<group>"; };
+		FD794163970C7FA8017C833E3638A952 /* Toucan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Toucan.debug.xcconfig; sourceTree = "<group>"; };
+		FED0BC1FD19C88652D1A2C31EFC12CE7 /* Pods-SwiftAvatar-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftAvatar-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D1FB88AA0F37428E8FA64C5AA973EB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13EFD050393464B86C7BFD2E94BE1EB4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDD851CD00FE7FEBBF8E655167A4128A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FAC99493CB4FE679AA5CDA36F269EB3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDE119D4421A2F236C720760A3F01A6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2663E9BAE2A7E282D85C8AAFA52B2950 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F57EC36B003AD188784C9A31C175F4DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F8F9A4B3A24B33EAB5D3162D3D16F8C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2084229F900AA79237BCEE06914CDE09 /* Pods-SwiftAvatar */ = {
+			isa = PBXGroup;
+			children = (
+				98B8A8587D758373CE3FC13736F8ACA2 /* Pods-SwiftAvatar.modulemap */,
+				CAE1088FDCB01F6E6A1668AF7D157795 /* Pods-SwiftAvatar-acknowledgements.markdown */,
+				799E76F750B66EA2FFBC71FBEB729C91 /* Pods-SwiftAvatar-acknowledgements.plist */,
+				D39C18B72F9605980E516BB447A41712 /* Pods-SwiftAvatar-dummy.m */,
+				FED0BC1FD19C88652D1A2C31EFC12CE7 /* Pods-SwiftAvatar-frameworks.sh */,
+				9E2E0DE9EC8083B24D0DCA115203365B /* Pods-SwiftAvatar-Info.plist */,
+				A3A35B72127A8EADD3DB373F525441BE /* Pods-SwiftAvatar-umbrella.h */,
+				93A45EEF8BEAB3DDEF6FE2AF580BD76B /* Pods-SwiftAvatar.debug.xcconfig */,
+				4ABDBFD356B09518E0AC7D7AA37C8510 /* Pods-SwiftAvatar.release.xcconfig */,
+			);
+			name = "Pods-SwiftAvatar";
+			path = "Target Support Files/Pods-SwiftAvatar";
+			sourceTree = "<group>";
+		};
+		29FE0EF1FD4F432C852DB23C70F968AE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				11E0322D7D11E622AABC80398A135654 /* Toucan.modulemap */,
+				0FD979B44A9113175E803961138C1A95 /* Toucan-dummy.m */,
+				F945787044ED6B318292BD3B87D0B140 /* Toucan-Info.plist */,
+				04A9C433BCF9ACF2EB8166F8E750735D /* Toucan-prefix.pch */,
+				ECF9F58FF2F1F715CF4DDCE2C15ED101 /* Toucan-umbrella.h */,
+				FD794163970C7FA8017C833E3638A952 /* Toucan.debug.xcconfig */,
+				CFC0BD07E79262FE3F78319F29AF6FF7 /* Toucan.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Toucan";
+			sourceTree = "<group>";
+		};
+		3906C35824C042CB1239DF165C0D4A2A /* Pods-SwiftAvatarTests */ = {
+			isa = PBXGroup;
+			children = (
+				26CD2C656C52FC5B38AD03EE6394B1F3 /* Pods-SwiftAvatarTests.modulemap */,
+				1FEAB732374296549DC5DF13760EF9AB /* Pods-SwiftAvatarTests-acknowledgements.markdown */,
+				293FEA96B0612104E0B29525C3350732 /* Pods-SwiftAvatarTests-acknowledgements.plist */,
+				B755633EAA86CEDF8BA75F72FEF773B4 /* Pods-SwiftAvatarTests-dummy.m */,
+				1A3C7A1AB53F4C40DF250F55D3A6EC81 /* Pods-SwiftAvatarTests-Info.plist */,
+				EE2EBB3CF4CEBFC0CB1E865E00B61ECF /* Pods-SwiftAvatarTests-umbrella.h */,
+				8B245D80B9EACCD84BA8474101E07B75 /* Pods-SwiftAvatarTests.debug.xcconfig */,
+				C524232D031F59C5466938357DC1A05E /* Pods-SwiftAvatarTests.release.xcconfig */,
+			);
+			name = "Pods-SwiftAvatarTests";
+			path = "Target Support Files/Pods-SwiftAvatarTests";
+			sourceTree = "<group>";
+		};
+		5454FC8C6B05F9704E9308414BD235FD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5E757BD9C6B0F5022C9A758D5CDEA522 /* Toucan */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5E757BD9C6B0F5022C9A758D5CDEA522 /* Toucan */ = {
+			isa = PBXGroup;
+			children = (
+				87613DEAD64823E0D119DEE55BD9B6AA /* Toucan.swift */,
+				29FE0EF1FD4F432C852DB23C70F968AE /* Support Files */,
+			);
+			path = Toucan;
+			sourceTree = "<group>";
+		};
+		88C2C655B535FF5FD3C461523FBBBF09 /* Pods-SwiftAvatar-SwiftAvatarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				984EED31374C2D92D26679220212F823 /* Pods-SwiftAvatar-SwiftAvatarUITests.modulemap */,
+				F88DBCF5E603E72395291670B4B4C15B /* Pods-SwiftAvatar-SwiftAvatarUITests-acknowledgements.markdown */,
+				1AB5E04EB868E1B2A4E1FE0C1416C179 /* Pods-SwiftAvatar-SwiftAvatarUITests-acknowledgements.plist */,
+				37F110D69208D5E542FB091384B86CE9 /* Pods-SwiftAvatar-SwiftAvatarUITests-dummy.m */,
+				5677296766C220CECA390F150D3F907B /* Pods-SwiftAvatar-SwiftAvatarUITests-frameworks.sh */,
+				888B15FF241BF86BB08A73E7E2FD8477 /* Pods-SwiftAvatar-SwiftAvatarUITests-Info.plist */,
+				E97B8B9B8FED391A818087D075DDC177 /* Pods-SwiftAvatar-SwiftAvatarUITests-umbrella.h */,
+				2D77474BC352660531B1ADCB561D5F90 /* Pods-SwiftAvatar-SwiftAvatarUITests.debug.xcconfig */,
+				289983092D54CA94F2AA54CA7F257158 /* Pods-SwiftAvatar-SwiftAvatarUITests.release.xcconfig */,
+			);
+			name = "Pods-SwiftAvatar-SwiftAvatarUITests";
+			path = "Target Support Files/Pods-SwiftAvatar-SwiftAvatarUITests";
+			sourceTree = "<group>";
+		};
+		B64E984E479FCEADDB1BE4F55D9C1CE9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C328B619469E7137C777CBCB47A5516D /* Pods_SwiftAvatar.framework */,
+				5CD2650C096CA6D6843FADBD5C960A9C /* Pods_SwiftAvatar_SwiftAvatarUITests.framework */,
+				453A76B43132280339F426A88D135798 /* Pods_SwiftAvatarTests.framework */,
+				D5124AA1F0F55AEFEF08CC12597C8C89 /* Toucan.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				5454FC8C6B05F9704E9308414BD235FD /* Pods */,
+				B64E984E479FCEADDB1BE4F55D9C1CE9 /* Products */,
+				DED0319176D8851CE669B4C8502AFD94 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DED0319176D8851CE669B4C8502AFD94 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2084229F900AA79237BCEE06914CDE09 /* Pods-SwiftAvatar */,
+				88C2C655B535FF5FD3C461523FBBBF09 /* Pods-SwiftAvatar-SwiftAvatarUITests */,
+				3906C35824C042CB1239DF165C0D4A2A /* Pods-SwiftAvatarTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5EDF9790139FFF6BF37751C755AEE258 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49B1C71C67310A04850F49EB49331947 /* Toucan-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61C20F02A678120084C4CE79A96786CB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9745DE8DEFCB21E968BC773F9D07594F /* Pods-SwiftAvatar-SwiftAvatarUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92459E9259FB5DD2E7F92D04957E8523 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F22DB5CF4D36E764898CB102EBE815CC /* Pods-SwiftAvatar-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99AD9DF185FC5049A3A20813607578EE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				672930BD7D22F943EDAD0780C9EFB08C /* Pods-SwiftAvatarTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0A39F8D3638F876EC9AA4FD027E1419B /* Pods-SwiftAvatar-SwiftAvatarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4E5DB41D688A19B62EFEB98BDC1EC8E /* Build configuration list for PBXNativeTarget "Pods-SwiftAvatar-SwiftAvatarUITests" */;
+			buildPhases = (
+				61C20F02A678120084C4CE79A96786CB /* Headers */,
+				408A74348F316AACBF8E1A2193E6B932 /* Sources */,
+				CDD851CD00FE7FEBBF8E655167A4128A /* Frameworks */,
+				740A1B1C9FF741CDB59439EAA4C95ED6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				58D18B7EFB77A4744E3D82E64634307F /* PBXTargetDependency */,
+			);
+			name = "Pods-SwiftAvatar-SwiftAvatarUITests";
+			productName = "Pods-SwiftAvatar-SwiftAvatarUITests";
+			productReference = 5CD2650C096CA6D6843FADBD5C960A9C /* Pods_SwiftAvatar_SwiftAvatarUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2203B25F7B9F4355577CA83C6C8D9546 /* Toucan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6ED45B90F9935C71BCDC2E91ACD18A0F /* Build configuration list for PBXNativeTarget "Toucan" */;
+			buildPhases = (
+				5EDF9790139FFF6BF37751C755AEE258 /* Headers */,
+				5B99BB402424892BAF61F87C46D03972 /* Sources */,
+				F57EC36B003AD188784C9A31C175F4DE /* Frameworks */,
+				C9EAF31E8ED50192215EE4B91C383C60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Toucan;
+			productName = Toucan;
+			productReference = D5124AA1F0F55AEFEF08CC12597C8C89 /* Toucan.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B31A713CB9C029BF74E39FE3088CB9F1 /* Pods-SwiftAvatarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01BFA3A52670F9DEB95941BD4E082DEC /* Build configuration list for PBXNativeTarget "Pods-SwiftAvatarTests" */;
+			buildPhases = (
+				99AD9DF185FC5049A3A20813607578EE /* Headers */,
+				8B9BED50771C43127BBEF735DE7F124E /* Sources */,
+				EDE119D4421A2F236C720760A3F01A6B /* Frameworks */,
+				040095C9839F736ADC2E34FEC041E03E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B847EC9A714296235C05E1BCA29EADC5 /* PBXTargetDependency */,
+			);
+			name = "Pods-SwiftAvatarTests";
+			productName = "Pods-SwiftAvatarTests";
+			productReference = 453A76B43132280339F426A88D135798 /* Pods_SwiftAvatarTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F1102F0DC11E0A0ABCA486CFFA0415C2 /* Pods-SwiftAvatar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04ADC73EB1C9037A3FFFF3ACFF41235B /* Build configuration list for PBXNativeTarget "Pods-SwiftAvatar" */;
+			buildPhases = (
+				92459E9259FB5DD2E7F92D04957E8523 /* Headers */,
+				0CE319ED79E6FE6D9E8E666583FDCA6A /* Sources */,
+				1D1FB88AA0F37428E8FA64C5AA973EB7 /* Frameworks */,
+				50938A785DFD4F2CD8AA4CE0138ADAE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				58C92769DF20B3F02253F34108ABD258 /* PBXTargetDependency */,
+			);
+			name = "Pods-SwiftAvatar";
+			productName = "Pods-SwiftAvatar";
+			productReference = C328B619469E7137C777CBCB47A5516D /* Pods_SwiftAvatar.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = B64E984E479FCEADDB1BE4F55D9C1CE9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F1102F0DC11E0A0ABCA486CFFA0415C2 /* Pods-SwiftAvatar */,
+				0A39F8D3638F876EC9AA4FD027E1419B /* Pods-SwiftAvatar-SwiftAvatarUITests */,
+				B31A713CB9C029BF74E39FE3088CB9F1 /* Pods-SwiftAvatarTests */,
+				2203B25F7B9F4355577CA83C6C8D9546 /* Toucan */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		040095C9839F736ADC2E34FEC041E03E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50938A785DFD4F2CD8AA4CE0138ADAE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		740A1B1C9FF741CDB59439EAA4C95ED6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9EAF31E8ED50192215EE4B91C383C60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0CE319ED79E6FE6D9E8E666583FDCA6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD678F13631F750208912B1849D0AABB /* Pods-SwiftAvatar-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		408A74348F316AACBF8E1A2193E6B932 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81040857A4A049182EF6ABC54F50A91F /* Pods-SwiftAvatar-SwiftAvatarUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B99BB402424892BAF61F87C46D03972 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08680619F0EABBBC61F29740D6637194 /* Toucan-dummy.m in Sources */,
+				1AEFFFAC0BEAF89281DF82919469352E /* Toucan.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B9BED50771C43127BBEF735DE7F124E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A152A1CECDDC2E30C1690B7F697F354 /* Pods-SwiftAvatarTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		58C92769DF20B3F02253F34108ABD258 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Toucan;
+			target = 2203B25F7B9F4355577CA83C6C8D9546 /* Toucan */;
+			targetProxy = ABF408810DB5B4826083299ED401C2BC /* PBXContainerItemProxy */;
+		};
+		58D18B7EFB77A4744E3D82E64634307F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Toucan;
+			target = 2203B25F7B9F4355577CA83C6C8D9546 /* Toucan */;
+			targetProxy = 7CC03834D2D82294E244342E1BEDF153 /* PBXContainerItemProxy */;
+		};
+		B847EC9A714296235C05E1BCA29EADC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SwiftAvatar";
+			target = F1102F0DC11E0A0ABCA486CFFA0415C2 /* Pods-SwiftAvatar */;
+			targetProxy = A256AC81A39F5DA4E88B983E3504E7E9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		014F1CD400F6785671B7C280C6752AB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 289983092D54CA94F2AA54CA7F257158 /* Pods-SwiftAvatar-SwiftAvatarUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftAvatar-SwiftAvatarUITests/Pods-SwiftAvatar-SwiftAvatarUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftAvatar-SwiftAvatarUITests/Pods-SwiftAvatar-SwiftAvatarUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		01DF3A64D1F022FE7045BCF92C5FEFAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B245D80B9EACCD84BA8474101E07B75 /* Pods-SwiftAvatarTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftAvatarTests/Pods-SwiftAvatarTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftAvatarTests/Pods-SwiftAvatarTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		51F90FDB26830E84AC085BF46AB9A6C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93A45EEF8BEAB3DDEF6FE2AF580BD76B /* Pods-SwiftAvatar.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftAvatar/Pods-SwiftAvatar-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftAvatar/Pods-SwiftAvatar.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		63FEC904F7DD5D4849737EB7924FF8A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFC0BD07E79262FE3F78319F29AF6FF7 /* Toucan.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Toucan/Toucan-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Toucan/Toucan-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Toucan/Toucan.modulemap";
+				PRODUCT_MODULE_NAME = Toucan;
+				PRODUCT_NAME = Toucan;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		64CBA1524BC4DFDBC74D78833101FD09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D77474BC352660531B1ADCB561D5F90 /* Pods-SwiftAvatar-SwiftAvatarUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftAvatar-SwiftAvatarUITests/Pods-SwiftAvatar-SwiftAvatarUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftAvatar-SwiftAvatarUITests/Pods-SwiftAvatar-SwiftAvatarUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		833AAF7DDBDD260D0BF1916ADA723566 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD794163970C7FA8017C833E3638A952 /* Toucan.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Toucan/Toucan-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Toucan/Toucan-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Toucan/Toucan.modulemap";
+				PRODUCT_MODULE_NAME = Toucan;
+				PRODUCT_NAME = Toucan;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		89057080132678724F9D1B11F2B0D386 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4ABDBFD356B09518E0AC7D7AA37C8510 /* Pods-SwiftAvatar.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftAvatar/Pods-SwiftAvatar-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftAvatar/Pods-SwiftAvatar.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		903A0004D3E6651EFD5D2E16214D101B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		99CA6FBB90841976EFB9318FA586EDB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C524232D031F59C5466938357DC1A05E /* Pods-SwiftAvatarTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftAvatarTests/Pods-SwiftAvatarTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftAvatarTests/Pods-SwiftAvatarTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B4EFE046ACF8F37157F6E322C7FCFC28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01BFA3A52670F9DEB95941BD4E082DEC /* Build configuration list for PBXNativeTarget "Pods-SwiftAvatarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01DF3A64D1F022FE7045BCF92C5FEFAA /* Debug */,
+				99CA6FBB90841976EFB9318FA586EDB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04ADC73EB1C9037A3FFFF3ACFF41235B /* Build configuration list for PBXNativeTarget "Pods-SwiftAvatar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51F90FDB26830E84AC085BF46AB9A6C0 /* Debug */,
+				89057080132678724F9D1B11F2B0D386 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4EFE046ACF8F37157F6E322C7FCFC28 /* Debug */,
+				903A0004D3E6651EFD5D2E16214D101B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6ED45B90F9935C71BCDC2E91ACD18A0F /* Build configuration list for PBXNativeTarget "Toucan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				833AAF7DDBDD260D0BF1916ADA723566 /* Debug */,
+				63FEC904F7DD5D4849737EB7924FF8A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4E5DB41D688A19B62EFEB98BDC1EC8E /* Build configuration list for PBXNativeTarget "Pods-SwiftAvatar-SwiftAvatarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64CBA1524BC4DFDBC74D78833101FD09 /* Debug */,
+				014F1CD400F6785671B7C280C6752AB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
